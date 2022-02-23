@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   font-family: sans-serif;
+  background-color: white;
+  padding: 4%;
+  border-radius: 2%;
 }
 body{
   font-size: 18 px;
@@ -19,10 +22,34 @@ background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Fir
    padding: 8px;
    border: 2px solid #000;
    cursor: pointer;
+   width: 50%;
+    margin-bottom: 1%;
+    margin-left: 24%;
+    color: black;
  }
 
  ul{
    list-style-type: none;
  }
-
+ h2{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+ }
+ h3{
+   color: green;
+ }
+ span{
+  color: #955b1f;
+ }
+ .ui.floating.message{
+  width: 65%;
+  margin-left: 20%;
+ }
+ .ui.inverted.button{
+  color: #546371;
+  border: 1px solid #63707d;
+  text-shadow: none!important;
+  width: 20%;
+ }
 

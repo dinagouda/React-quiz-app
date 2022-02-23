@@ -77,11 +77,11 @@ finishHandler = ()=>{
     if(quizEnd){
         return(
             <div>
-                <h2> test finished : Score is {this.state.score}</h2>
+                <h3> test finished : Score is {this.state.score}</h3>
                 <p> The correct answer was</p>
                 <ul>
                     {QuizData.map((item , index) => (
-                       <li className ="ui floating message options "
+                       <li className ="ui  options "
                        key={index}>
                       {item.answer}
                        </li>
